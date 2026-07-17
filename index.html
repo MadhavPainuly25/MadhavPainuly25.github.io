@@ -308,8 +308,8 @@
                     </div>
                 </div>
                 <div class="contact-form-wrapper">
-                    <!-- Formspree powered form - delivers directly to Gmail -->
-                    <form id="contact-form" class="contact-form"
+                    <!-- Pure HTML Formspree form - no JavaScript needed -->
+                    <form class="contact-form"
                           action="https://formspree.io/f/xkodjblg"
                           method="POST">
                         <div class="form-group">
@@ -324,8 +324,6 @@
                             <label for="form-message">MESSAGE</label>
                             <textarea id="form-message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
                         </div>
-                        <!-- Hidden field to redirect back to portfolio after submission -->
-                        <input type="hidden" name="_next" value="https://MadhavPainuly25.github.io?sent=true">
                         <input type="hidden" name="_subject" value="New message from Portfolio!">
                         <button type="submit" class="btn-submit" id="submit-form-btn">SEND MESSAGE &nearr;</button>
                     </form>
